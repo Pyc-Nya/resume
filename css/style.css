@@ -106,8 +106,8 @@ h1, h2, h3, h4, h5, h6 {
 
 .container {
   font-size: 18px;
-  padding: 3.75em;
-  gap: 3.75em;
+  padding: 2.5em;
+  gap: 2.5em;
   line-height: 1.25em;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -150,6 +150,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .main-info__name {
   font-size: 2em;
+  line-height: 1.2em;
   font-weight: 700;
 }
 .main-info__age {
@@ -157,6 +158,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .main-info__profession {
   font-size: 1.6em;
+  line-height: 1.2em;
   font-weight: 700;
   color: #0051ca;
 }

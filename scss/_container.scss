@@ -5,8 +5,8 @@ $project-color: #00ba85;
 
 .container {
   font-size: 18px;
-  padding: pxToEm(60px);
-  gap: pxToEm(60px);
+  padding: pxToEm(40px);
+  gap: pxToEm(40px);
   line-height: pxToEm(20px);
   display: flex;
   font-family: "Open Sans", sans-serif;
@@ -40,6 +40,7 @@ $project-color: #00ba85;
 
   &__name {
     font-size: 2em;
+    line-height: 1.2em;
     font-weight: 700;
   }
 
@@ -49,6 +50,7 @@ $project-color: #00ba85;
 
   &__profession {
     font-size: 1.6em;
+    line-height: 1.2em;
     font-weight: 700;
     color: #0051ca;
   }
