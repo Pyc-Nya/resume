@@ -133,6 +133,9 @@ h1, h2, h3, h4, h5, h6 {
   display: flex;
   gap: 1.25em;
 }
+.main-info__image-container {
+  position: static;
+}
 .main-info__image {
   padding: 0.625em;
   border: 1px solid #0051ca;

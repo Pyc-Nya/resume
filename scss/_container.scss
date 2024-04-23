@@ -24,8 +24,7 @@ $project-color: #00ba85;
   gap: pxToEm(20px);
   
   &__image-container {
-    // padding: pxToEm(10px);
-    // border: 1px solid $main-color;
+    position: static;
   }
 
   &__image {
@@ -34,7 +33,6 @@ $project-color: #00ba85;
   }
 
   &__text {
-    // padding-top: pxToEm(40px);
     display: flex;
     flex-direction: column;
     gap: pxToEm(15px);
