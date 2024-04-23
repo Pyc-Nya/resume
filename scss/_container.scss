@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+$main-color: #0051ca;
+$project-color: #00ba85;
+
+.container {
+  font-size: 18px;
+  padding: pxToEm(60px);
+  gap: pxToEm(60px);
+  line-height: pxToEm(20px);
+  display: flex;
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+
+.content-left {
+  display: flex;
+  flex-direction: column;
+  gap: pxToEm(40px);  
+}
+
+.main-info {
+  display: flex;
+  gap: pxToEm(20px);
+  
+  &__image-container {
+    padding: pxToEm(10px);
+    border: 1px solid $main-color;
+  }
+
+  &__image {
+  }
+
+  &__text {
+    padding-top: pxToEm(40px);
+    display: flex;
+    flex-direction: column;
+    gap: pxToEm(15px);
+  }
+
+  &__name {
+    font-size: 2em;
+    font-weight: 700;
+  }
+
+  &__age {
+    font-size: 1.2em;
+  }
+
+  &__profession {
+    font-size: 1.6em;
+    font-weight: 700;
+    color: #0051ca;
+  }
+
+  &__city {
+    font-size: 1.2em;
+    color: $main-color;
+  }
+}
+
+.about {
+
+  &__title {
+    margin-bottom: pxToEm(10px);
+    font-size: 1.2em;
+    color: $main-color;
+  }
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: pxToEm(10px);
+
+  &__title {
+    font-size: 1.2em;
+    color: $main-color;
+  }
+
+  &__item {
+    display: flex;
+    align-items: center;
+    gap: pxToEm(10px);
+    line-height: 1.4em;
+  }
+}
+
+.content-right {
+  display: flex;
+  flex-direction: column;
+  gap: pxToEm(40px);
+}
+
+.projects {
+  display: flex;
+  flex-direction: column;
+  gap: pxToEm(20px);
+}
+
+.project {
+  display: flex;
+  flex-direction: column;
+  gap: pxToEm(8px);
+
+  &__title {
+    font-size: 1.2em;
+    color: $project-color;
+  }
+
+  &__link {
+    position: relative;
+    padding-left: pxToEm(10px);
+
+    &::before {
+      content: "";
+      position: absolute;
+      width: pxToEm(4px);
+      top: 50%;
+      left: pxToEm(0px);
+      height: pxToEm(4px);
+      border-radius: 50%;
+      background: #000;
+    }
+  }
+
+  &__image-container {
+    width: 100%;
+  }
+
+  &__image {
+    width: 100%;
+  }
+}
