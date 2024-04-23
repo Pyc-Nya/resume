@@ -5,7 +5,7 @@ $project-color: #00ba85;
 
 .container {
   font-size: 18px;
-  padding: pxToEm(40px);
+  padding: pxToEm(20px);
   gap: pxToEm(40px);
   line-height: pxToEm(20px);
   display: flex;
@@ -24,15 +24,17 @@ $project-color: #00ba85;
   gap: pxToEm(20px);
   
   &__image-container {
+    // padding: pxToEm(10px);
+    // border: 1px solid $main-color;
+  }
+
+  &__image {
     padding: pxToEm(10px);
     border: 1px solid $main-color;
   }
 
-  &__image {
-  }
-
   &__text {
-    padding-top: pxToEm(40px);
+    // padding-top: pxToEm(40px);
     display: flex;
     flex-direction: column;
     gap: pxToEm(15px);
